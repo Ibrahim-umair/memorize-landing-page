@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    background: #f8f9fa;
+    padding: 20px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.hero {
+    background: url('../images/hero-bg.jpg') no-repeat center center/cover;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 0;
+}
+
+.feature {
+    flex: 1;
+    margin: 0 20px;
+    text-align: center;
+}
+
+.about {
+    padding: 40px 0;
+    background: #f1f1f1;
+}
+
+.testimonials {
+    padding: 40px 0;
+    background: #fff;
+}
+
+.pricing {
+    padding: 40px 0;
+    background: #f8f9fa;
+}
+
+.contact {
+    padding: 40px 0;
+}
+
+.footer {
+    background: #343a40;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
